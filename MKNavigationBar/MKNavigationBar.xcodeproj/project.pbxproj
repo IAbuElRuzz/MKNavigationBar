@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50446B27138D9E3D0070A956 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50446B26138D9E3D0070A956 /* UIKit.framework */; };
+		50446B29138D9E3D0070A956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50446B28138D9E3D0070A956 /* Foundation.framework */; };
+		50446B2B138D9E3D0070A956 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50446B2A138D9E3D0070A956 /* CoreGraphics.framework */; };
+		50446B31138D9E3D0070A956 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50446B2F138D9E3D0070A956 /* InfoPlist.strings */; };
+		50446B34138D9E3D0070A956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50446B33138D9E3D0070A956 /* main.m */; };
+		50446B37138D9E3D0070A956 /* MKNavigationBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50446B36138D9E3D0070A956 /* MKNavigationBarAppDelegate.m */; };
+		50446B3A138D9E3D0070A956 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50446B38138D9E3D0070A956 /* MainWindow.xib */; };
+		50446B3D138D9E3D0070A956 /* MKNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50446B3C138D9E3D0070A956 /* MKNavigationBarViewController.m */; };
+		50446B40138D9E3D0070A956 /* MKNavigationBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50446B3E138D9E3D0070A956 /* MKNavigationBarViewController.xib */; };
+		50446B48138D9E6B0070A956 /* MKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 50446B47138D9E6B0070A956 /* MKNavigationBar.m */; };
+		50446B4C138D9FBD0070A956 /* NavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 50446B4B138D9FBD0070A956 /* NavigationBar.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50446B22138D9E3D0070A956 /* MKNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50446B26138D9E3D0070A956 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50446B28138D9E3D0070A956 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50446B2A138D9E3D0070A956 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50446B2E138D9E3D0070A956 /* MKNavigationBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKNavigationBar-Info.plist"; sourceTree = "<group>"; };
+		50446B30138D9E3D0070A956 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50446B32138D9E3D0070A956 /* MKNavigationBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKNavigationBar-Prefix.pch"; sourceTree = "<group>"; };
+		50446B33138D9E3D0070A956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50446B35138D9E3D0070A956 /* MKNavigationBarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKNavigationBarAppDelegate.h; sourceTree = "<group>"; };
+		50446B36138D9E3D0070A956 /* MKNavigationBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKNavigationBarAppDelegate.m; sourceTree = "<group>"; };
+		50446B39138D9E3D0070A956 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		50446B3B138D9E3D0070A956 /* MKNavigationBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKNavigationBarViewController.h; sourceTree = "<group>"; };
+		50446B3C138D9E3D0070A956 /* MKNavigationBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKNavigationBarViewController.m; sourceTree = "<group>"; };
+		50446B3F138D9E3D0070A956 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKNavigationBarViewController.xib; sourceTree = "<group>"; };
+		50446B46138D9E6B0070A956 /* MKNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNavigationBar.h; sourceTree = "<group>"; };
+		50446B47138D9E6B0070A956 /* MKNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNavigationBar.m; sourceTree = "<group>"; };
+		50446B4B138D9FBD0070A956 /* NavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBar.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50446B1F138D9E3D0070A956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50446B27138D9E3D0070A956 /* UIKit.framework in Frameworks */,
+				50446B29138D9E3D0070A956 /* Foundation.framework in Frameworks */,
+				50446B2B138D9E3D0070A956 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50446B17138D9E3D0070A956 = {
+			isa = PBXGroup;
+			children = (
+				50446B46138D9E6B0070A956 /* MKNavigationBar.h */,
+				50446B47138D9E6B0070A956 /* MKNavigationBar.m */,
+				50446B2C138D9E3D0070A956 /* MKNavigationBar */,
+				50446B25138D9E3D0070A956 /* Frameworks */,
+				50446B23138D9E3D0070A956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50446B23138D9E3D0070A956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50446B22138D9E3D0070A956 /* MKNavigationBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50446B25138D9E3D0070A956 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50446B26138D9E3D0070A956 /* UIKit.framework */,
+				50446B28138D9E3D0070A956 /* Foundation.framework */,
+				50446B2A138D9E3D0070A956 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50446B2C138D9E3D0070A956 /* MKNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				50446B35138D9E3D0070A956 /* MKNavigationBarAppDelegate.h */,
+				50446B36138D9E3D0070A956 /* MKNavigationBarAppDelegate.m */,
+				50446B38138D9E3D0070A956 /* MainWindow.xib */,
+				50446B3B138D9E3D0070A956 /* MKNavigationBarViewController.h */,
+				50446B3C138D9E3D0070A956 /* MKNavigationBarViewController.m */,
+				50446B3E138D9E3D0070A956 /* MKNavigationBarViewController.xib */,
+				50446B4B138D9FBD0070A956 /* NavigationBar.png */,
+				50446B2D138D9E3D0070A956 /* Supporting Files */,
+			);
+			path = MKNavigationBar;
+			sourceTree = "<group>";
+		};
+		50446B2D138D9E3D0070A956 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50446B2E138D9E3D0070A956 /* MKNavigationBar-Info.plist */,
+				50446B2F138D9E3D0070A956 /* InfoPlist.strings */,
+				50446B32138D9E3D0070A956 /* MKNavigationBar-Prefix.pch */,
+				50446B33138D9E3D0070A956 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50446B21138D9E3D0070A956 /* MKNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50446B43138D9E3D0070A956 /* Build configuration list for PBXNativeTarget "MKNavigationBar" */;
+			buildPhases = (
+				50446B1E138D9E3D0070A956 /* Sources */,
+				50446B1F138D9E3D0070A956 /* Frameworks */,
+				50446B20138D9E3D0070A956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKNavigationBar;
+			productName = MKNavigationBar;
+			productReference = 50446B22138D9E3D0070A956 /* MKNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50446B19138D9E3D0070A956 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 50446B1C138D9E3D0070A956 /* Build configuration list for PBXProject "MKNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50446B17138D9E3D0070A956;
+			productRefGroup = 50446B23138D9E3D0070A956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50446B21138D9E3D0070A956 /* MKNavigationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50446B20138D9E3D0070A956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50446B31138D9E3D0070A956 /* InfoPlist.strings in Resources */,
+				50446B3A138D9E3D0070A956 /* MainWindow.xib in Resources */,
+				50446B40138D9E3D0070A956 /* MKNavigationBarViewController.xib in Resources */,
+				50446B4C138D9FBD0070A956 /* NavigationBar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50446B1E138D9E3D0070A956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50446B34138D9E3D0070A956 /* main.m in Sources */,
+				50446B37138D9E3D0070A956 /* MKNavigationBarAppDelegate.m in Sources */,
+				50446B3D138D9E3D0070A956 /* MKNavigationBarViewController.m in Sources */,
+				50446B48138D9E6B0070A956 /* MKNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50446B2F138D9E3D0070A956 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50446B30138D9E3D0070A956 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50446B38138D9E3D0070A956 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50446B39138D9E3D0070A956 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		50446B3E138D9E3D0070A956 /* MKNavigationBarViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50446B3F138D9E3D0070A956 /* en */,
+			);
+			name = MKNavigationBarViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50446B41138D9E3D0070A956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50446B42138D9E3D0070A956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		50446B44138D9E3D0070A956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKNavigationBar/MKNavigationBar-Prefix.pch";
+				INFOPLIST_FILE = "MKNavigationBar/MKNavigationBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50446B45138D9E3D0070A956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKNavigationBar/MKNavigationBar-Prefix.pch";
+				INFOPLIST_FILE = "MKNavigationBar/MKNavigationBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50446B1C138D9E3D0070A956 /* Build configuration list for PBXProject "MKNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50446B41138D9E3D0070A956 /* Debug */,
+				50446B42138D9E3D0070A956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50446B43138D9E3D0070A956 /* Build configuration list for PBXNativeTarget "MKNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50446B44138D9E3D0070A956 /* Debug */,
+				50446B45138D9E3D0070A956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50446B19138D9E3D0070A956 /* Project object */;
+}
